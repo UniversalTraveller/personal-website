@@ -58,14 +58,21 @@ h3 {
 
 .social_card {
   width: 240px;
-  height: 120px;
+  height: 100px;
   box-shadow: 0px 0px 6px lightgrey;
   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .social_card_image {
-  width: 64px;
-  height: 64px;
+  width: 84px;
+  height: 84px;
+  padding: 16px;
+  margin: 10px;
+  background-color: lightblue;
+  border-radius: 6px;
 }
 
 .social_card_arrow {
@@ -76,12 +83,23 @@ h3 {
 .social_card_headline {
   text-transform: uppercase;
   font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
 }
 
 .social_card_text {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  width: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
 
 .social_card_footer {
   font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  color: #9a9a9a;
 }
