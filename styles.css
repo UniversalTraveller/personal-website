@@ -12,11 +12,15 @@ body {
 }
 
 p,
-h1,
-h2,
 ul,
 li {
-  margin: 5px 0 5px 0;
+  margin: 5px 0 7px 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px 0 10px 0;
 }
 
 h1 {
