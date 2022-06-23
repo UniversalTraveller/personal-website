@@ -8,6 +8,7 @@ html {
 
 body {
   font-size: 1.6rem;
+
   margin: 20px 60px 30px 30px;
 }
 
@@ -20,6 +21,7 @@ li {
 h1,
 h2,
 h3 {
+  font-family: "Roboto", sans-serif;
   margin: 10px 0 10px 0;
 }
 
