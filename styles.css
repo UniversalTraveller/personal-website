@@ -50,11 +50,11 @@ a {
 }
 
 header {
-  margin-bottom: 4rem;
+  margin: 0 4% 2rem 0;
 }
 
 footer {
-  margin-top: 4rem;
+  margin: 2rem 0 0 12%;
 }
 
 .skills {
