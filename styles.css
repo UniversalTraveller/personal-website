@@ -40,6 +40,10 @@ h3 {
   padding: 1.8rem 0 0.8rem 0;
 }
 
+a {
+  color: black;
+}
+
 header {
   margin-bottom: 4rem;
 }
