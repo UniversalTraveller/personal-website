@@ -16,6 +16,11 @@ p,
 ul,
 li {
   margin: 0.5rem 0 0.7rem 0;
+  max-width: 80rem;
+}
+
+img {
+  max-width: 80rem;
 }
 
 h1,
@@ -75,7 +80,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 80rem;
   padding: 0 12% 30% 14%;
 }
 
