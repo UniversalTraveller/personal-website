@@ -59,6 +59,10 @@ h3 {
   text-align: right;
 }
 
+.portfolio_image {
+  width: 100%;
+}
+
 .social_card {
   width: 240px;
   height: 100px;
