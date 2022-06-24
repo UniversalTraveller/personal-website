@@ -8,20 +8,21 @@ html {
 
 body {
   font-size: 1.6rem;
-  margin: 20px 20% 30px 15%;
+  margin: 2rem 20% 3rem 15%;
+  background-color: lightgray;
 }
 
 p,
 ul,
 li {
-  margin: 5px 0 7px 0;
+  margin: 0.5rem 0 0.7rem 0;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
-  margin: 10px 0 10px 0;
+  margin: 1rem 0 1rem 0;
 }
 
 h1 {
@@ -45,9 +46,9 @@ h3 {
 }
 .skill {
   background-color: teal;
-  padding: 8px;
-  margin: 10px;
-  border-radius: 7px;
+  padding: 0.8rem;
+  margin: 1rem;
+  border-radius: 0.8rem;
   color: antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -63,30 +64,33 @@ h3 {
 
 .portfolio_image {
   width: 100%;
+  box-shadow: 0 0 0.6rem #444;
+  border-radius: 0.8rem;
 }
 
 .social_card {
-  width: 240px;
-  height: 100px;
-  box-shadow: 0px 0px 6px lightgrey;
-  border-radius: 10px;
+  width: 24rem;
+  height: 10rem;
+  box-shadow: 0 0 0.6rem #444;
+  border-radius: 0.6rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  background-color: white;
 }
 
 .social_card_image {
-  width: 84px;
-  height: 84px;
-  padding: 16px;
+  width: 8.4rem;
+  height: 8.4rem;
+  padding: 1.6rem;
   margin: 10px;
   background-color: lightblue;
-  border-radius: 6px;
+  border-radius: 0.6rem;
 }
 
 .social_card_arrow {
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
 .social_card_headline {
@@ -98,10 +102,10 @@ h3 {
 
 .social_card_text {
   font-size: 1rem;
-  width: 120px;
+  width: 12rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .social_card_footer {
@@ -109,6 +113,6 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-between;
-  width: 120px;
+  width: 12rem;
   color: #9a9a9a;
 }
