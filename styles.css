@@ -70,7 +70,7 @@ footer {
 }
 
 .header_nav:hover {
-  color: red;
+  color: #666;
 }
 
 .footer_nav_item {
@@ -87,8 +87,9 @@ footer {
 
 .header {
   display: flex;
-  gap: 1rem;
-  text-align: right;
+  align-items: space-around;
+  justify-content: end;
+  gap: 1.5rem;
 }
 
 .portfolio_image {
