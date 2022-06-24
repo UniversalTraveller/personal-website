@@ -8,15 +8,19 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 2rem 0 3rem 0%;
-  background-color: lightgray;
+  background-color: rgb(61, 61, 61);
 }
 
 p,
 ul,
 li {
-  margin: 0.5rem 0 0.7rem 0;
+  margin: 0.5rem 0 3rem 0;
   max-width: 80rem;
+  line-height: 3rem;
+  color: antiquewhite;
 }
 
 img {
@@ -28,10 +32,11 @@ h2,
 h3 {
   font-family: "Roboto", sans-serif;
   padding: 2rem 0 3rem 0;
+  color: teal;
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: bold;
 }
 
@@ -46,7 +51,13 @@ h3 {
 }
 
 a {
-  color: black;
+  color: rgb(253, 181, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -81,22 +92,24 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding: 0 12% 30% 14%;
+  font-size: 2rem;
 }
 
 #title_section,
 #skills,
 #contact {
-  background-color: darkgrey;
+  background-color: rgb(78, 78, 78);
 }
 
 .header_nav {
   text-decoration: none;
-  color: #111111;
+  color: antiquewhite;
   font-family: "Roboto", "sans-serif";
+  font-weight: normal;
 }
 
 .header_nav:hover {
-  color: #666;
+  color: antiquewhite;
 }
 
 .footer_nav_item {
