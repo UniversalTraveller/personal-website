@@ -40,14 +40,16 @@ h3 {
 
 .skills {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   flex-wrap: wrap;
 }
 .skill {
   background-color: teal;
-  padding: 6px;
+  padding: 8px;
+  margin: 10px;
   border-radius: 7px;
   color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav {
