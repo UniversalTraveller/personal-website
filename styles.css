@@ -8,7 +8,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  padding: 2rem 14% 3rem 12%;
+  padding: 2rem 0 3rem 0%;
   background-color: lightgray;
 }
 
@@ -76,7 +76,13 @@ footer {
   flex-direction: column;
   justify-content: center;
   max-width: 80rem;
-  padding: 0 0 30% 0;
+  padding: 0 12% 30% 14%;
+}
+
+#title_section,
+#skills,
+#contact {
+  background-color: darkgrey;
 }
 
 .header_nav {
