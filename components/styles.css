@@ -6,7 +6,7 @@ html {
   font-size: 62.5%;
 }
 
-body {
+.body {
   font-size: 1.6rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -14,58 +14,58 @@ body {
   background-color: rgb(61, 61, 61);
 }
 
-p,
-ul,
-li {
+.header {
+  margin: 0 4% 2rem 0;
+}
+
+.footer {
+  margin: 2rem 0 0 12%;
+}
+
+.main_section_paragraph {
   margin: 0.5rem 0 3rem 0;
   max-width: 80rem;
   line-height: 3rem;
   color: antiquewhite;
 }
 
-img {
-  max-width: 80rem;
-}
-
-h1,
-h2,
-h3 {
+.main_section_h1 {
   padding: 2rem 0 3rem 0;
   color: rgb(0, 160, 160);
-}
-
-h1 {
   font-size: 3.6rem;
   font-weight: bold;
 }
 
-h2 {
+.main_section_h2 {
+  padding: 2rem 0 3rem 0;
+  color: rgb(0, 160, 160);
   font-size: 3rem;
   font-weight: bold;
 }
 
-h3 {
+.main_section_h3 {
+  padding: 2rem 0 3rem 0;
+  color: rgb(0, 160, 160);
   font-size: 2.4rem;
   font-weight: bold;
   padding: 1.8rem 0 1.4rem 0;
 }
 
-a {
+.main_section_paragraph_link {
   color: rgb(253, 181, 0);
   text-decoration: none;
   font-weight: bold;
 }
 
-a:hover {
+.main_section_gototoplink {
+  color: rgb(253, 181, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main_section_paragraph_link:hover,
+.main_section_gototoplink:hover {
   text-decoration: underline;
-}
-
-header {
-  margin: 0 4% 2rem 0;
-}
-
-footer {
-  margin: 2rem 0 0 12%;
 }
 
 .skills {
@@ -81,11 +81,7 @@ footer {
   color: antiquewhite;
 }
 
-#about,
-#skills,
-#portfolio,
-#contact,
-#title_section {
+.main_section {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -94,20 +90,18 @@ footer {
   font-size: 2rem;
 }
 
-#title_section,
-#skills,
-#contact {
+.main_section:nth-child(even) {
   background-color: rgb(78, 78, 78);
 }
 
-.header_nav {
+.header_nav_item {
   text-decoration: none;
   color: antiquewhite;
   font-family: "Roboto", "sans-serif";
   font-weight: normal;
 }
 
-.header_nav:hover {
+.header_nav_item:hover {
   color: antiquewhite;
 }
 
@@ -122,7 +116,7 @@ footer {
   gap: 1.6rem;
 }
 
-.header {
+.header_nav {
   display: flex;
   align-items: space-around;
   justify-content: end;
@@ -131,6 +125,7 @@ footer {
 
 .portfolio_image {
   width: 100%;
+  max-width: 80rem;
   box-shadow: 0 0 0.6rem #444;
   border-radius: 0.8rem;
 }

@@ -11,59 +11,62 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css-reset.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/css-reset.css" />
+    <link rel="stylesheet" href="components/styles.css" />
   </head>
 
-  <body id="home">
-    <header>
-      <nav class="header">
-        <a href="#home" class="header_nav">Home</a>
-        <a href="#about" class="header_nav">About</a>
-        <a href="#skills" class="header_nav">Skills</a>
-        <a href="#portfolio" class="header_nav">Portfolio</a>
-        <a href="#contact" class="header_nav">Contact</a>
+  <body id="home" class="body">
+    <header class="header">
+      <nav class="header_nav">
+        <a href="#home" class="header_nav_item">Home</a>
+        <a href="#about" class="header_nav_item">About</a>
+        <a href="#skills" class="header_nav_item">Skills</a>
+        <a href="#portfolio" class="header_nav_item">Portfolio</a>
+        <a href="#contact" class="header_nav_item">Contact</a>
       </nav>
     </header>
-    <main>
-      <section id="title_section">
-        <h1>Andreas Kiener, Web Developer</h1>
-        <p>Hi there! I'm Andreas.</p>
-        <p>
+    <main class="main">
+      <section id="title_section" class="main_section">
+        <h1 class="main_section_h1">Andreas Kiener, Web Developer</h1>
+        <p class="main_section_paragraph">Hi there! I'm Andreas.</p>
+        <p class="main_section_paragraph">
           I create websites. This is my own. Here you can learn more
-          <a href="#about">about</a> me, study my
-          <a href="#skills">skill set</a> and have a look at my
-          <a href="#portfolio">portfolio</a>.
+          <a href="#about" class="main_section_paragraph_link">about</a> me,
+          study my
+          <a href="#skills" class="main_section_paragraph_link">skill set</a>
+          and have a look at my
+          <a href="#portfolio" class="main_section_paragraph_link">portfolio</a
+          >.
         </p>
-        <p>
+        <p class="main_section_paragraph">
           If you have any questions, feel free to
-          <a href="#contact">contact</a> me.
+          <a href="#contact" class="main_section_paragraph_link">contact</a> me.
         </p>
       </section>
 
-      <section id="about">
-        <h2>About</h2>
-        <p>
+      <section id="about" class="main_section" class="main_section_lightcolor">
+        <h2 class="main_section_h2">About</h2>
+        <p class="main_section_paragraph">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
           ipsum dolor sit amet.
         </p>
-        <p>
+        <p class="main_section_paragraph">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
           ipsum dolor sit amet.
         </p>
-        <p>
-          <a href="#home" class="go_to_top">Go to top</a>
+        <p class="main_section_paragraph">
+          <a href="#home" class="main_section_gototoplink">Go to top</a>
         </p>
       </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
+      <section id="skills" class="main_section">
+        <h2 class="main_section_h2">Skills</h2>
         <ul class="skills">
           <li class="skill">HTML</li>
           <li class="skill">CSS</li>
@@ -76,40 +79,42 @@
           <li class="skill">WordPress</li>
           <li class="skill">Git</li>
         </ul>
-        <p>
+        <p class="main_section_paragraph">
           <a href="#home" class="go_to_top">Go to top</a>
         </p>
       </section>
 
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <h3>Schneckenbuntbarsche</h3>
+      <section id="portfolio" class="main_section">
+        <h2 class="main_section_h2">Portfolio</h2>
+        <h3 class="main_section_h3">Schneckenbuntbarsche</h3>
         <a href="https://schneckenbuntbarsche.com"
           ><img
             src="images/schneckenbuntbarsche_com.png"
             alt="Screenshot of schneckenbuntbarsche.com"
             class="portfolio_image"
         /></a>
-        <h3>Nano Aquarium Tipps</h3>
+        <h3 class="main_section_h3">Nano Aquarium Tipps</h3>
         <a href="https://nano-aquarium-tipps.de">
           <img
             src="images/nano_aquarium_tipps_de.png"
             alt="Screenshot of nano-aquarium-tipps.de"
             class="portfolio_image"
         /></a>
-        <p>
+        <p class="main_section_paragraph">
           <a href="#home" class="go_to_top">Go to top</a>
         </p>
       </section>
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Love letters, criticism and business inquiries go here.</p>
-        <h3>E-Mail</h3>
-        <p>
+      <section id="contact" class="main_section">
+        <h2 class="main_section_h2">Contact</h2>
+        <p class="main_section_paragraph">
+          Love letters, criticism and business inquiries go here.
+        </p>
+        <h3 class="main_section_h3">E-Mail</h3>
+        <p class="main_section_paragraph">
           <a href="mailto:andreas.kiener@gmail.com">andreas.kiener@gmail.com</a>
         </p>
-        <h3>Social</h3>
+        <h3 class="main_section_h3">Social</h3>
         <article class="social_card">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg"
@@ -132,7 +137,7 @@
         </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <nav class="footer_nav">
         <a href="imprint.html" class="footer_nav_item">Imprint</a>
         <a href="privacy.html" class="footer_nav_item">Privacy</a>
