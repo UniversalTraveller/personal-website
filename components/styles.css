@@ -1,26 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-.body {
-  font-size: 1.6rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding: 2rem 0 3rem 0%;
-  background-color: rgb(61, 61, 61);
-}
-
-.header {
-  margin: 0 4% 2rem 0;
-}
-
-.footer {
-  margin: 2rem 0 0 12%;
-}
+@import url(css-reset.css);
+@import url(basic.css);
+@import url(header.css);
+@import url(footer.css);
 
 .main_section_paragraph {
   margin: 0.5rem 0 3rem 0;
@@ -68,13 +49,13 @@ html {
   text-decoration: underline;
 }
 
-.skills {
+.main_section_skills {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.skill {
+.main_section_skill_item {
   background-color: teal;
   padding: 0.8rem;
   border-radius: 0.8rem;
